@@ -1,0 +1,17 @@
+package com.atguigu.cloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import tk.mybatis.spring.annotation.MapperScan;
+
+@SpringBootApplication
+@MapperScan(basePackages = "com.atguigu.cloud.mapper")
+@EnableDiscoveryClient// 开启服务发现
+@RefreshScope // 支持Nacos的动态刷新功能
+public class Main8002 {
+    public static void main(String[] args) {
+        SpringApplication.run(Main8002.class, args);
+    }
+}

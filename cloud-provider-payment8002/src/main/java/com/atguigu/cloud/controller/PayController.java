@@ -14,7 +14,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author lyh
@@ -65,14 +64,6 @@ public class PayController {
             throw new RuntimeException("id不能为负数");
         }
 
-        try{
-            TimeUnit.SECONDS.sleep(620);
-        }catch(InterruptedException e){
-            e.printStackTrace();
-        }
-
-
-
         Pay pay = payService.getById(id);
         if(pay == null) {
             return ResultData.fail("404","没有找到对应的记录，ID：" + id);
@@ -96,7 +87,7 @@ public class PayController {
     @GetMapping("/pay/get/info")
     public String getInfoByConsul(@Value("${atguigu.info}") String atguiguInfo) {
 
-        return "atguiguInfo: " + atguiguInfo + "port: " + port;
+        return "atguiguInfo: " + atguiguInfo + "port;: " + port;
 
     }
 }
