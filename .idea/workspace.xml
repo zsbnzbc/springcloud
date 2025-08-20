@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22bd525f-e240-418a-878e-56716120e3d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.cache/.Apifox_Helper/.toolWindow.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/85fa0e9a-6902-4764-8bf0-e4e8d86db091.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/85fa0e9a-6902-4764-8bf0-e4e8d86db091/storage_v2/_src_/schema/db2024.fhIhsA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f65523f0-7d1f-4652-bfd2-6e1b9e1de6ef.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f65523f0-7d1f-4652-bfd2-6e1b9e1de6ef/storage_v2/_src_/schema/db2025.fxIhsA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/entities/PayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/exp/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/resp/ResultData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/resp/ReturnCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/entities/PayDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/exp/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/resp/ResultData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/resp/ReturnCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/Main80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/Main80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Main8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/config/Swagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/entities/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Main8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/config/Swagger3Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/entities/Pay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/mapper/PayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/service/PayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/service/impl/PayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator2024/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/java/com/atguigu/cloud/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="31U9WfJNHeeA9NWMxfM2ibSVitS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApiPost:METDOD_SEND_RECORD:cloud-provider-payment8001": "{\"/pay/add\":[{\"url\":\"http://localhost:8001/pay/add\",\"header\":[],\"query\":[],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"json\",\"parameter\":[],\"raw\":\"{\\n    \\\"id\\\": 1,\\n    \\\"payNo\\\": \\\"paystring2\\\",\\n    \\\"orderNo\\\": \\\"asdfw\\\",\\n    \\\"userId\\\": 1,\\n    \\\"amount\\\": 9.99,\\n    \\\"deleted\\\": 1,\\n    \\\"createTime\\\": \\\"2025-08-19 14:10:36\\\",\\n    \\\"updateTime\\\": \\\"2025-08-19 14:10:36\\\"\\n}\",\"raw_para\":[{\"key\":\"id\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"payNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"支付流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"orderNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"订单流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"userId\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"用户账号ID\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"amount\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"交易金额\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Number\"},{\"key\":\"deleted\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"删除标志，默认0不删除，1删除\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"createTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"创建时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"},{\"key\":\"updateTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"更新时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"}]},\"responseBody\":\"{\\\"timestamp\\\":\\\"2025-08-19T06:11:24.044+00:00\\\",\\\"status\\\":400,\\\"error\\\":\\\"Bad Request\\\",\\\"path\\\":\\\"/pay/add\\\"}\",\"responseHeader\":{\"Transfer-Encoding\":[\"chunked\"],\"Connection\":[\"close\"],\"Date\":[\"Tue, 19 Aug 2025 06:11:24 GMT\"],\"Content-Type\":[\"application/json\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":8.0,\"day\":19.0},\"time\":{\"hour\":14.0,\"minute\":11.0,\"second\":24.0,\"nano\":7.10299E7}}},{\"url\":\"http://localhost:8001/pay/add\",\"header\":[],\"query\":[],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"json\",\"parameter\":[],\"raw\":\"{\\n    \\\"id\\\": 1,\\n    \\\"payNo\\\": \\\"paystring2\\\",\\n    \\\"orderNo\\\": \\\"asdfw\\\",\\n    \\\"userId\\\": 1,\\n    \\\"amount\\\": 9.99,\\n    \\\"deleted\\\": 0,\\n    \\\"createTime\\\": \\\"2025-08-19 14:10:36\\\",\\n    \\\"updateTime\\\": \\\"2025-08-19 14:10:36\\\"\\n}\",\"raw_para\":[{\"key\":\"id\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"payNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"支付流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"orderNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"订单流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"userId\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"用户账号ID\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"amount\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"交易金额\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Number\"},{\"key\":\"deleted\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"删除标志，默认0不删除，1删除\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"createTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"创建时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"},{\"key\":\"updateTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"更新时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"}]},\"responseBody\":\"{\\\"timestamp\\\":\\\"2025-08-19T06:11:31.260+00:00\\\",\\\"status\\\":400,\\\"error\\\":\\\"Bad Request\\\",\\\"path\\\":\\\"/pay/add\\\"}\",\"responseHeader\":{\"Transfer-Encoding\":[\"chunked\"],\"Connection\":[\"close\"],\"Date\":[\"Tue, 19 Aug 2025 06:11:31 GMT\"],\"Content-Type\":[\"application/json\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":8.0,\"day\":19.0},\"time\":{\"hour\":14.0,\"minute\":11.0,\"second\":31.0,\"nano\":2.625819E8}}},{\"url\":\"http://localhost:8001/pay/add\",\"header\":[],\"query\":[],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"json\",\"parameter\":[],\"raw\":\"{\\n    \\\"id\\\": 1,\\n    \\\"payNo\\\": \\\"paystring2\\\",\\n    \\\"orderNo\\\": \\\"asdfw\\\",\\n    \\\"userId\\\": 1,\\n    \\\"amount\\\": 9.99,\\n    \\\"deleted\\\": 0,\\n    \\\"createTime\\\": \\\"2025-08-19 14:10:36\\\",\\n    \\\"updateTime\\\": \\\"2025-08-19 14:10:36\\\"\\n}\",\"raw_para\":[{\"key\":\"id\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"payNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"支付流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"orderNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"订单流水号\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"userId\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"用户账号ID\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"amount\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"交易金额\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Number\"},{\"key\":\"deleted\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"删除标志，默认0不删除，1删除\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"createTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"创建时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"},{\"key\":\"updateTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"更新时间\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"Date\"}]},\"responseBody\":\"{\\\"timestamp\\\":\\\"2025-08-19T06:11:32.719+00:00\\\",\\\"status\\\":400,\\\"error\\\":\\\"Bad Request\\\",\\\"path\\\":\\\"/pay/add\\\"}\",\"responseHeader\":{\"Transfer-Encoding\":[\"chunked\"],\"Connection\":[\"close\"],\"Date\":[\"Tue, 19 Aug 2025 06:11:32 GMT\"],\"Content-Type\":[\"application/json\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":8.0,\"day\":19.0},\"time\":{\"hour\":14.0,\"minute\":11.0,\"second\":32.0,\"nano\":7.218546E8}}},{\"url\":\"http://localhost:8001/pay/add\",\"header\":[],\"query\":[],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"json\",\"parameter\":[],\"raw\":\"{\\n \\n    \\\"payNo\\\": \\\"paystring2\\\",\\n    \\\"orderNo\\\": \\\"asdfw\\\",\\n    \\\"userId\\\": 1,\\n    \\\"amount\\\": 9.99\\n  \\n}\",\"raw_para\":[{\"key\":\"id\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"payNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"支付流水号\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"orderNo\",\"value\":\"\",\"type\":\"Text\",\"description\":\"订单流水号\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"userId\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"用户账号ID\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"amount\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"交易金额\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Number\"},{\"key\":\"deleted\",\"value\":\"1\",\"type\":\"Text\",\"description\":\"删除标志，默认0不删除，1删除\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Integer\"},{\"key\":\"createTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"创建时间\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Date\"},{\"key\":\"updateTime\",\"value\":\"2025-08-19 14:10:36\",\"type\":\"Text\",\"description\":\"更新时间\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"Date\"}]},\"responseBody\":\"鎴愬姛娣诲姞鏀粯璁板綍锛岃繑鍥炲�硷細1\",\"responseHeader\":{\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"40\"],\"Date\":[\"Tue, 19 Aug 2025 06:11:42 GMT\"],\"Content-Type\":[\"text/plain;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025,\"month\":8,\"day\":19},\"time\":{\"hour\":14,\"minute\":11,\"second\":42,\"nano\":693060200}}}]}",
+    "Maven.cloud-api-commons [clean].executor": "Run",
+    "Maven.cloud-api-commons [compile].executor": "Run",
+    "Maven.cloud-api-commons [install].executor": "Run",
+    "Maven.cloud-api-commons [org.apache.maven.plugins:maven-install-plugin:3.1.1:help].executor": "Run",
+    "Maven.cloud-api-commons [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
+    "Maven.cloud-provider-payment8001 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.cloud-provider-payment8001 [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.mybatis_generator2024 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.mybatis_generator2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main80.executor": "Run",
+    "Spring Boot.Main8001.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zsbn/IdeaProjects/cloud2025",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "two.files.diff.last.used.file": "C:/Users/zsbn/IdeaProjects/cloud2025/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/config/Swagger3Config.java",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-api-commons\src\main\java\com\atguigu\cloud" />
+      <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-consumer-order80\src\main\java\com\atguigu\cloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-provider-payment8001\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.cloud.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main80">
+    <configuration name="Main80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Main80" />
+      <item itemvalue="Spring Boot.Main8001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main80" />
+        <item itemvalue="Spring Boot.Main8001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22bd525f-e240-418a-878e-56716120e3d4" name="Changes" comment="" />
+      <created>1755567817578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755567817578</updated>
+      <workItem from="1755567818623" duration="2669000" />
+      <workItem from="1755570499946" duration="1792000" />
+      <workItem from="1755572315241" duration="16860000" />
+      <workItem from="1755595531595" duration="182000" />
+      <workItem from="1755649120768" duration="319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
