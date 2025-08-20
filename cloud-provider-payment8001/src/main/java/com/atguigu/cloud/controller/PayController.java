@@ -87,7 +87,7 @@ public class PayController {
     @GetMapping("/pay/get/info")
     public String getInfoByConsul(@Value("${atguigu.info}") String atguiguInfo) {
 
-        return "atguiguInfo: " + atguiguInfo + "port;: " + port;
+        return "atguiguInfo: " + atguiguInfo + "port: " + port;
 
     }
 }

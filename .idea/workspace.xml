@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22bd525f-e240-418a-878e-56716120e3d4" name="Changes" comment="第一阶段初始化项目">
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="22bd525f-e240-418a-878e-56716120e3d4" name="Changes" comment="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PayMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.cache/.Apifox_Helper/.toolWindow.db" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.cache/.Apifox_Helper/.toolWindow.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/Main80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/Main80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/config/RestTemplateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/cloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/Main80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/Main80.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/config/RestTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/config/RestTemplateConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/cloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Main8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/Main8001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Main8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/Main8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/config/Swagger3Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/config/Swagger3Config.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="31U9WfJNHeeA9NWMxfM2ibSVitS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,9 +100,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Main80.executor": "Run",
     "Spring Boot.Main8001.executor": "Run",
+    "Spring Boot.Main8002.executor": "Run",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zsbn/IdeaProjects/cloud2025",
+    "last_opened_file_path": "C:/Users/zsbn/IdeaProjects/cloud2025/cloud-provider-payment8002/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,6 +113,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "two.files.diff.last.used.file": "C:/Users/zsbn/IdeaProjects/cloud2025/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/config/Swagger3Config.java",
     "vue.rearranger.settings.migration": "true"
@@ -123,6 +126,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-provider-payment8002\src\main\resources" />
       <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-api-commons\src\main\java\com\atguigu\cloud" />
       <recent name="C:\Users\zsbn\IdeaProjects\cloud2025\cloud-consumer-order80\src\main\java\com\atguigu\cloud" />
     </key>
@@ -136,11 +140,13 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main8001">
+  <component name="RunManager" selected="Spring Boot.Main8002">
     <configuration name="Main80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main80" />
@@ -167,14 +173,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.Main8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.Main80" />
+      <item itemvalue="Spring Boot.Main8002" />
       <item itemvalue="Spring Boot.Main8001" />
+      <item itemvalue="Spring Boot.Main80" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main8001" />
         <item itemvalue="Spring Boot.Main80" />
+        <item itemvalue="Spring Boot.Main8002" />
+        <item itemvalue="Spring Boot.Main8001" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +220,8 @@
       <workItem from="1755572315241" duration="16860000" />
       <workItem from="1755595531595" duration="182000" />
       <workItem from="1755649120768" duration="2069000" />
-      <workItem from="1755651772432" duration="3774000" />
+      <workItem from="1755651772432" duration="4503000" />
+      <workItem from="1755671717539" duration="3407000" />
     </task>
     <task id="LOCAL-00001" summary="第一阶段初始化项目">
       <option name="closed" value="true" />
@@ -217,7 +239,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755649472235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）">
+      <option name="closed" value="true" />
+      <created>1755656746349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755656746349</updated>
+    </task>
+    <task id="LOCAL-00004" summary="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）">
+      <option name="closed" value="true" />
+      <created>1755656763164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755656763164</updated>
+    </task>
+    <task id="LOCAL-00005" summary="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）">
+      <option name="closed" value="true" />
+      <created>1755656766877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755656766877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一阶段初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一阶段初始化项目" />
+    <MESSAGE value="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务注册与发现consul第一阶段结束目前问题（consul数据持久化后续解决）" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
