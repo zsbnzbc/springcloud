@@ -10,6 +10,7 @@ import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -77,5 +78,16 @@ public class PayController {
         // Placeholder return value
         List<Pay> all = payService.getAll();
         return ResultData.success(all);
+    }
+
+
+    @Value("${server.port}")
+    private String port;
+
+    @GetMapping("/pay/get/info")
+    public String getInfoByConsul(@Value("${atguigu.info}") String atguiguInfo) {
+
+        return "atguiguInfo: " + atguiguInfo + "port;: " + port;
+
     }
 }
