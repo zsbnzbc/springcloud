@@ -17,7 +17,7 @@ public class OrderController{
      * 在实际项目中，应该使用注册中心来获取服务提供者的地址
      * 这里为了简单起见，直接写死了
      */
-    public static final String PaymentSrv_URL = "http://localhost:8001";
+    public static final String PaymentSrv_URL = "http://cloud-payment-service";
 
     @Resource
     private RestTemplate restTemplate;
